@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218721269180",
+    "project_id": "ganimusicapp",
+    "storage_bucket": "ganimusicapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218721269180:android:4c392a71066993caf327b9",
+        "android_client_info": {
+          "package_name": "com.example.ganimusicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9MtI8y3StHlDMdnnsC9b5Sq9F2r707Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
