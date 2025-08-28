@@ -73,7 +73,7 @@ plugins {
 
 android {
     namespace = "com.example.ganimusicapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.ganimusicapp"
@@ -125,6 +125,7 @@ dependencies {
 
     // ✅ Optional Legacy Media Support
     implementation("androidx.media:media:1.6.0")
+    implementation(libs.androidx.recyclerview)
 
     // ✅ Testing
     testImplementation(libs.junit)
@@ -134,4 +135,7 @@ dependencies {
     // ✅ Glide without kapt
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+
+    implementation("androidx.media3:media3-exoplayer:1.4.1")
+    implementation("androidx.media3:media3-ui:1.4.1")
 }
